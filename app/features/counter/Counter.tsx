@@ -14,6 +14,12 @@ import {
 export default function Counter() {
   const dispatch = useDispatch();
   const value = useSelector(selectCount);
+
+  const derivedValue = 1;
+  //uwc-debug
+  React.useEffect(() => {
+    console.log('value is', value);
+  }, [dispatch, value, derivedValue]);
   return (
     <div>
       <div className={styles.backButton} data-tid="backButton">

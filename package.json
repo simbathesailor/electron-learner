@@ -190,6 +190,8 @@
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
     "@babel/register": "^7.11.5",
+    "@simbathesailor/babel-plugin-use-what-changed": "^0.1.17",
+    "@simbathesailor/use-what-changed": "^0.1.25",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/history": "^4.7.6",
